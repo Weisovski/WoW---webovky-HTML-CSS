@@ -1,0 +1,133 @@
+nav {
+  border-radius: 8px;
+  box-sizing: border-box;
+  height: 72px;
+  background-color: #3b261d;
+  left: 16px;
+  right: 16px;
+  top: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  padding: 12px;
+  white-space: nowrap;
+}
+
+.navbar-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  height: 72px;
+}
+
+.navbar-mid {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 30px;
+  height: 72px;
+  order: 0;
+  width: 1600px;
+  padding-left: 22px;
+}
+.navbar-mid .item:hover {
+  background: #c7c1c1;
+  border-top: 1px solid #5f5d5d;
+  padding-top: 0;
+  background-color: #806d629f;
+}
+
+.navbar-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  height: 72px;
+  width: 300px;
+}
+
+.logo {
+  width: 160px;
+  height: 72px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("blizzard.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-size: 60%;
+}
+
+.icon {
+  background-image: url("icons8-world-of-warcraft-96.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-size: 75%;
+  width: 80px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.try-free {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 34px;
+  width: 52px;
+  border: 1px double black;
+  padding: 5px 5px 5px 5px;
+  border-radius: 16px;
+  color: aliceblue;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: orange;
+}
+
+.subscribe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 44px;
+  width: 84px;
+  border: 1px double black;
+  padding: 5px 5px 5px 5px;
+  border-radius: 16px;
+  color: aliceblue;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: orange;
+}
+
+.item {
+  padding-top: 1px;
+  color: #d0d0d0;
+  border-radius: 6px;
+
+  font-size: 21px;
+}
+
+body {
+  background-image: url("8262534.jpg");
+}
+
+/* article {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 600px;
+}
+
+.photo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  height: 80px;
+  width: 80px;
+  border: 1px dotted blue;
+} */
